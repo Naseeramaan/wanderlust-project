@@ -40,9 +40,9 @@
 
 <div id="filters" class="navbar navbar-expand-md">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/listings"
+    <!-- <a class="navbar-brand" href="/listings"
       ><i class="fa-regular fa-compass"></i
-    ></a>
+    ></a> -->
     <button
       class="navbar-toggler"
       type="button"
@@ -51,7 +51,8 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
       <div class="filter">
         <div><i class="fa-solid fa-fire"></i></div>
         <p>Trending</p>
@@ -96,11 +97,12 @@
         <div><i class="fa-solid fa-sailboat"></i></div>
         <p>Boats</p>
       </div>
+    </div>
       <!-- <div class="filter">
     <div><i class="fa-solid fa-monument"></i></div>
     <p>Monuments</p>
   </div> -->
-      <div class="tax-toggle">
+      <div class="tax-toggle navbar-nav ms-auto">
         <div class="form-check-reverse form-switch">
           <input
             class="form-check-input"
@@ -112,6 +114,7 @@
             >Dislay Total after taxes</label
           >
         </div>
+      
       </div>
     </div>
   </div>
